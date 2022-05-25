@@ -6,6 +6,35 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.header_1 {
+	text-align: center;
+	background-image: url("./images/background.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	
+	/* filter: blur(8px); */
+}
+
+.logo_name {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 8px black;
+}
+
+.sub_name {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+}
+
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
