@@ -148,9 +148,19 @@ nav .fa-solid {
 
 }
 
+h1{ 
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
 p{
-    color: #fff;
+    color: rgb(103, 103, 103);
     font-size: 14px;
     font-weight: 300;
-    
+    line-height: 22px;
+    padding: 10px;
 }
+
+
