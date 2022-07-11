@@ -137,3 +137,20 @@ nav .fa-solid {
 
     }
 }
+
+/* services */
+
+.services {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    
+}
