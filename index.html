@@ -1,181 +1,34 @@
-<!DOCTYPE HTML>
-
 <html>
 	<head>
-		<title>I-ELD</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<title>Solid ELD</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	</head>
-	<body class="is-preload">
-
-		<!-- Header -->
-			<header class="header_1">
-
-
-				<div class="content">
-					<h1 class="logo_name">I-ELD</a></h1>
-					<p class="sub_name">ELD solutions for your company</p>
-
+	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+				<div class="nav-links" id="">
+					<i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Pricing</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
 				</div>
-				<!-- <div class="image phone"><div class="inner"><img src="images/mobile.png" alt="" /></div></div> -->
+				<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+			</nav>
 
-
-			</header>
-
-
-
-		<!-- First Section -->
-			<section id="two" class="wrapper">
-				<div class="inner alt">
-					<section class="spotlight">
-						<div class="image"><img src="images/hand_shaking.jpeg" alt="" /></div>
-						<div class="content">
-							<h3>Information Exchange Strategies</h3>
-							<p>"All-In-One" I-ELD by HOS247 is able of creating and exchanging the ELD records through telematics exchange strategies: Remote Web administrations and E-mail. In arrange to send the ELD records by means of Web administrations, a driver must press “DOT Inspection” menu thing and after that press “Send Logs” button. In arrange to send the ELD records by means of Mail, a driver must press “DOT Inspection” menu thing, press “Email Logs”, enter an e-mail given by an authorized security official and press “Send“ button.</p>
-						</div>
-					</section>
-					<section class="spotlight">
-						<div class="image"><img src="images/eld_device.jpeg" alt="" /></div>
-						<div class="content">
-							<h3>ELD Malfunctions </h3>
-							<p>I-ELD screens its compliance with the specialized necessities and recognizes breakdowns and information irregularities and keeps records of its breakdown and information demonstrative occasion discovery. Taking after standard coding is executed for required compliance breakdown and information symptomatic occasion discovery: P - “Power compliance” glitch, E - “Engine synchronization compliance” breakdown, T - “Timing compliance” breakdown, L - “Positioning compliance” glitch, R - “Data recording compliance” breakdown, S - “Data exchange compliance” breakdown, O - “Other” ELD identified glitch, 1 - “Power information diagnostic” occasion, 2 - “Engine synchronization information diagnostic” occasion, 3 - “Missing required information components information diagnostic” occasion, 4 - “Data exchange information diagnostic” occasion, 5 - “Unidentified driving records information diagnostic” occasion, 6 - “Other” ELD recognized demonstrative occasion. The  I-ELD Glitch and Symptomatic Occasion Records list all ELD glitches that have happened on I-ELD</p>
-						</div>
-					</section>
-					<section class="spotlight">
-						<div class="image"><img src="images/customer_service.jpeg" alt="" /></div>
-						<div class="content">
-							<h3>Certifying Statement</h3>
-							<p>I-ELD Professional meets the specialized details set forward within the Reference section to Subpart B of Portion 395 of title 49, Code of Government Controls. I-ELD Professional was tried to comply with FMCSA directions by completing steps and testing methods portrayed within the Electronic Logging Gadget (ELD) Test Arrange and Methods Form 2.0.</p>
-						</div>
-					</section>
-				</div>
-			</section>
-
-		<div class="pricing">
-			<!-- Pricing Table-->
-			<div class="col-lg-4 mb-5 mb-lg-0">
-				<div class="bg-white p-5 rounded-lg shadow">
-				  <h1 class="h6 text-uppercase font-weight-bold mb-4">Basic</h1>
-				  <h2 class="h1 font-weight-bold">$20<span class="text-small font-weight-normal ml-2">/ month</span></h2>
-		
-				  <div class="custom-separator my-4 mx-auto bg-primary"></div>
-		
-				  <ul class="list-unstyled my-5 text-small text-left">
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>Electronic Logbook</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>Electronic DVIR</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>Fleet Manager Portal</li>
-					<li class="mb-3 text-muted">
-					  <i class="fa fa-times mr-2"></i>
-					  <del>GPS Fleet Tracking</del>
-					</li>
-					<li class="mb-3 text-muted">
-					  <i class="fa fa-times mr-2"></i>
-					  <del>IFTA Reporting</del>
-					</li>
-
-				  </ul>
-				  <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
-				</div>
-			  </div>
-			  <!-- END -->
-		
-		
-			  <!-- Pricing Table-->
-			  <div class="col-lg-4 mb-5 mb-lg-0">
-				<div class="bg-white p-5 rounded-lg shadow">
-				  <h1 class="h6 text-uppercase font-weight-bold mb-4">Pro</h1>
-				  <h2 class="h1 font-weight-bold">$30<span class="text-small font-weight-normal ml-2">/ month</span></h2>
-		
-				  <div class="custom-separator my-4 mx-auto bg-primary"></div>
-		
-				  <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>Electronic Logbook</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>Electronic DVIR</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>GPS Fleet Tracking</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>IFTA Reporting</li>
-					
-				  </ul>
-				  <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
-				</div>
-			  </div>
-			  <!-- END -->
-		
-		
-			  <!-- Pricing Table-->
-			  <div class="col-lg-4">
-				<div class="bg-white p-5 rounded-lg shadow">
-				  <h1 class="h6 text-uppercase font-weight-bold mb-4">Enterprise</h1>
-				  <h2 class="h1 font-weight-bold">Contact us</h2>
-		
-				  <div class="custom-separator my-4 mx-auto bg-primary"></div>
-		
-				  <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>Electronic Logbook</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>Electronic DVIR</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>Fleet Manager Portal</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>GPS Fleet Tracking</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>IFTA Reporting</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>Logbook Monitoring</li>
-					<li class="mb-3">
-					  <i class="fa fa-check mr-2 text-primary"></i>24/7 Support</li>
-				  </ul>
-				  <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
-				</div>
-			  </div>
-			  <!-- END -->
-
+			<div class="text-box">
+				<h1>ELD solutions </h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+					molestiae quas vel sint commodi <br> repudiandae consequuntur voluptatum laborum
+					numquam blanditiis harum quisquam eius sed odit.</p>
+					<a href="" class="hero-btn">Visit us to know More</a>
 			</div>
-
-		<!-- Three -->
-			<section id="three" class="wrapper style2 special">
-				<header class="major">
-					<h2>About us</h2>
-					<p>We use most invotive technologies for the safety of our customers. Safety is our priority!</p>
-				</header>
-				<ul class="actions special">
-					<li><a href="#" class="button primary">Order now</a></li>
-					<li><a href="#" class="button">Learn More</a></li>
-				</ul>
-			</section>
-
-
-		<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-				</ul>
-				<p class="copyright">&copy; Untitled. Credits: <a href="http://html5up.net">I-ELD</a></p>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+		</section>
 	</body>
 </html>
