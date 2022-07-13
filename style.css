@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -210,5 +211,37 @@ h2 {
     margin: auto;
     text-align: center;
     padding-top: 50px;
-
 }
+
+.provider-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.provider-col img {
+    width: 100%;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+
+.layer:hover{
+    background: linear-gradient(to top, #002fff6d 0%, #ffffff75 100%);
+}
+
+
+
+
+
+
+
