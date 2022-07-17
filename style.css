@@ -242,14 +242,17 @@ h2 {
 }
 
 .layer:hover{
-    background: linear-gradient(to top, #ffffffed 0%, #ffffff75 100%);
+    background: linear-gradient(to top, #fffffff4 0%, #ffffff75 100%);
+    
 }
 
 .layer:hover h3{
     color: black;
     position: absolute;
     bottom: 0;
-    left: 50;
+    left: 100;
+    transform: translateX(-40%);
+    transition: 0.5s;
 }
 
 
